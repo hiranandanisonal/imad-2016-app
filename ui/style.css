@@ -5,4 +5,10 @@ A:link{
 text-decoration:none;
 color:yellow;}
 A:hover{color:red;}
+.div{
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
 </style>
