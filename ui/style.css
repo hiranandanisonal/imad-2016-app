@@ -9,10 +9,19 @@
     
 }
 
-.whole
+.imp
 {
     background-color:green;
     color:white;
+}
+
+.whole
+{
+    padding-left=50px;
+    padding-right=50px;
+    padding-top=50px;
+    padding-bottom=50px;
+    
 }
 
 A:link
