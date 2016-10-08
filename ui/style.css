@@ -1,10 +1,13 @@
-.class1
-{
-    color:green;
-    padding-top:60px;
-}
 
-.y
-{
-    background:yellow;
-  }
+
+.y{background-image:url("http://cdn1.askiitians.com/cms-content/biologymorphology-of-flowering-plantsleaf_0.jpg");
+background-repeat:no-repeat;}
+
+
+.x{text-align:center;color:green;border:1px green solid; }
+
+A:link{
+text-decoration:none;
+color:yellow;}
+
+A:hover{color:red;}
