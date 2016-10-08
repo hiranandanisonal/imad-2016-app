@@ -1,10 +1,12 @@
 
 
-.y{background-image:url("http://cdn1.askiitians.com/cms-content/biologymorphology-of-flowering-plantsleaf_0.jpg");
-background-repeat:no-repeat;}
 
 
-.x{text-align:center;color:green;border:1px green solid; }
+
+
+
+.x{background-image:url("http://cdn1.askiitians.com/cms-content/biologymorphology-of-flowering-plantsleaf_0.jpg");
+background-repeat:no-repeat;background:green;text-align:center;color:white;padding-left:500px;padding-right:500px;font-family:sans-serif}
 
 A:link{
 text-decoration:none;
