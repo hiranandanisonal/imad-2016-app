@@ -31,8 +31,8 @@ var articles={
     We are Surat based and running our natural produce in our home and selling those ones.You are surely gonna love these!!    
     </p> `
 },
-    'say hello':{
-        title:'shop',
+    'say hello!':{
+        title:'say hello!',
     heading1:'HIRANANDANI HOME REMEDIES',
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
     content:`
