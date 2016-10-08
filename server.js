@@ -15,9 +15,9 @@ var articles={
         <a href="/">Home</a>
         <a href="http://hiranandanisonal.imad.hasura-app.io/about us" target="_sameframe">about us</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/say hello">say hello</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">say hello</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/shop">shop</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/shop">http://hiranandanisonal.imad.hasura-app.io/shop</a>
        
     </p>
         
@@ -42,7 +42,7 @@ var articles={
       
         <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">say hello</a> |
       
-        <a href="shop">shop</a>
+        <a href="shop">http://hiranandanisonal.imad.hasura-app.io/shop</a>
        
     </p>
         
@@ -60,11 +60,11 @@ var articles={
     content:`
     <p>
         <a href="/">Home</a>
-        <a href="http://hiranandanisonal.imad.hasura-app.io/article1" target="_sameframe">about us</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/about us" target="_sameframe">about us</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/article2">say hello</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">say hello</a> |
       
-        <a href="shop">shop</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/shop">shop</a>
        
     </p>
         
