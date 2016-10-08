@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    'about_us':{
+    'about us':{
     title:'about us',
     heading1:'HIRANANDANI HOME REMEDIES',
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
@@ -31,7 +31,7 @@ var articles={
     We are Surat based and running our natural produce in our home and selling those ones.You are surely gonna love these!!    
     </p> `
 },
-    'say_hello':{
+    'say hello':{
         title:'shop',
     heading1:'HIRANANDANI HOME REMEDIES',
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
