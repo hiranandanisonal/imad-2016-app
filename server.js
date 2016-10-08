@@ -5,12 +5,14 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var about_us={
+var articles={
+    'about_us':{
     title:'about us',
     heading1:'HIRANANDANI HOME REMEDIES',
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
     content:`
         <p>
+        <a href="/">Home</a>
         <a href="http://hiranandanisonal.imad.hasura-app.io/article1" target="_sameframe">about us</a> |
       
         <a href="http://hiranandanisonal.imad.hasura-app.io/article2">say hello</a> |
@@ -28,7 +30,52 @@ var about_us={
     <p>
     We are Surat based and running our natural produce in our home and selling those ones.You are surely gonna love these!!    
     </p> `
+},
+    'say_hello':{
+        title:'shop',
+    heading1:'HIRANANDANI HOME REMEDIES',
+    heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
+    content:`
+    <p>
+        <a href="/">Home</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/article1" target="_sameframe">about us</a> |
+      
+        <a href="http://hiranandanisonal.imad.hasura-app.io/article2">say hello</a> |
+      
+        <a href="shop">shop</a>
+       
+    </p>
+        
+    <p>
+      For any type of query or grievances, contact us on<br>
+      Ph no:123456789<br>
+      or<br>
+      email:123@abc.com
+    </p>`},
+    
+     'shop':{
+        title:'shop',
+    heading1:'HIRANANDANI HOME REMEDIES',
+    heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
+    content:`
+    <p>
+        <a href="/">Home</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/article1" target="_sameframe">about us</a> |
+      
+        <a href="http://hiranandanisonal.imad.hasura-app.io/article2">say hello</a> |
+      
+        <a href="shop">shop</a>
+       
+    </p>
+        
+    <p>
+   Our products will be released soon!!
+    </p>`},
+    
 };
+    
+    
+    
 function createTemplate(data){
     var title=data.title;
     var heading1=data.heading1;
@@ -90,17 +137,11 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 }); 
 
-app.get('/article1',function(req,res){
-res.send(createTemplate(about_us));
+app.get('/:articlename',function(req,res){
+    var articlename=req.params.articlename;
+res.send(createTemplate(articles[articlename]));
 });
 
-app.get('/article2',function(req,res){
-res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
-});
-
-app.get('/article3',function(req,res){
-res.send('artcle 3 will be served here');
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
