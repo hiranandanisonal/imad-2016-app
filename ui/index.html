@@ -30,6 +30,41 @@ A:hover{color:red;}
 
 
 
+<script type="text/javascript">
+var image1=new Image()
+image1.src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg"
+
+var image2=new Image()
+image2.src="http://www.hairskinremedies.com/wp-content/uploads/2014/03/natural-supplements-for-hair.jpg"
+
+
+var image3=new Image()
+image3.src="https://images8.alphacoders.com/396/396384.jpg"
+
+
+
+
+
+
+</script>
+
+
+</head>
+
+<body>
+<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg" name="slideshow"  alt="imageslideshow">
+<script type="text/javascript">
+var numberImage=1
+function myslide(){
+document.images.slideshow.src=eval("image"+numberImage+".src")
+if (numberImage < 4)
+numberImage=numberImage+1
+else
+numberImage=1
+setTimeout("myslide()",4500)
+}
+myslide()
+</script>
 <title>
 
 article
@@ -57,7 +92,7 @@ article
 
 <h2>
 
-<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">
+
 
 
 </h2>
