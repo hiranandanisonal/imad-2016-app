@@ -1,8 +1,7 @@
 console.log('loaded!');
 var element = document.getElementById('main-text');
 
-element.innerHTML = "new value aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-ncsnkcsnakcaslcalscskackscn";
+element.innerHTML = "new value aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaancsnkcsnakcaslcalscskackscn";
 
 
 
