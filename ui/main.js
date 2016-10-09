@@ -8,4 +8,4 @@ element.innerHTML='my-webb-app';
 var img=document.getEllementById("move");
 img.onclick(){
    move.style.marginleft="100px" 
-}
+};
