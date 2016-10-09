@@ -6,6 +6,6 @@ element.innerHTML='my-webb-app';
 
 // img move by js
 var img=document.getEllementById("move");
-img.onclick(){
+move.onclick(){
    move.style.marginleft="100px" 
 };
