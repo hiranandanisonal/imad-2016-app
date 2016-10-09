@@ -1,9 +1,9 @@
 
 
 
-var x = document.getElementById('main-text');
+var element = document.getElementById('main-text');
 
-x.innerHTML='new value';
+element.innerHTML = 'new value';
 
 
 
