@@ -12,7 +12,7 @@ var articles={
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
     content:`
         <p>
-        <a href="/">Home</a>
+        <a href="/">Home</a> |
         <a href="http://hiranandanisonal.imad.hasura-app.io/about us" target="_sameframe">about us</a> |
       
         <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">say hello</a> |
@@ -37,7 +37,7 @@ var articles={
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
     content:`
     <p>
-        <a href="/">Home</a>
+        <a href="/">Home</a> |
         <a href="http://hiranandanisonal.imad.hasura-app.io/about us" target="_sameframe">about us</a> |
       
         <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">say hello</a> |
@@ -59,7 +59,7 @@ var articles={
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
     content:`
     <p>
-        <a href="/">Home</a>
+        <a href="/">Home</a> |
         <a href="http://hiranandanisonal.imad.hasura-app.io/about us" target="_sameframe">about us</a> |
       
         <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">say hello</a> |
