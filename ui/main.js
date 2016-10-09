@@ -1,4 +1,4 @@
 console.log('Loaded!');
 
 var element = document.getElementById('main-text');
-element.InnerHTML='my-webb-app';
+element.innerHTML='my-webb-app';
