@@ -1,7 +1,7 @@
 console.log('Loaded!');
 // content change by js
 
-var element = document.getElementById("main-text");
+var element = document.getElementById('main-text');
 element.innerHTML='my-webb-app';
 
 // img move by js
