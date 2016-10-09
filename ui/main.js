@@ -1,7 +1,7 @@
 
 var element = document.getElementById('main-text');
 
-element.innerHTML = 'new value';
+element.innerHTML = "new value";
 
 
 
