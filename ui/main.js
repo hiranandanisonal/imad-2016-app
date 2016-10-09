@@ -1,4 +1,4 @@
-console.log('Loaded!');
+
 
 
 var x = document.getElementById('main-text');
