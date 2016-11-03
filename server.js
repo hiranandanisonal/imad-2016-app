@@ -6,9 +6,9 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    'about us':{
-    title:'about us',
-    heading1:'HIRANANDANI HOME REMEDIES',
+    'about me':{
+    title:'about me',
+    heading1:'HIRANANDANI SONALI GHANSHYAM',
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
     content:`
         <p>
@@ -24,16 +24,20 @@ var articles={
     
       
     <p>
-      Hello all we are family.We are here to serve you the most effective cum natural home made products.Beauty is for sure inside.But using natural products gives an inner satisfaction and confidence.Here we are with those products.
+      Welcome to my blog space.I use to write on various topics.You can also follow me:
     </p>
     
     <p>
-    We are Surat based and running our natural produce in our home and selling those ones.You are surely gonna love these!!    
+      Profession: Student 
+      Course: BE-Information Technology
+      Institute:Sarvajanik college of engineering and technology
+      Email ID:hiranandanisonal@gmail.com
+      contact no:9727463584
     </p> `
 },
-    'say hello!':{
-        title:'say hello!',
-    heading1:'HIRANANDANI HOME REMEDIES',
+    'Contact me':{
+        title:'contact me!',
+    heading1:'HIRANANDANI SONALI GHANSHYAM',
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
     content:`
     <p>
@@ -47,8 +51,8 @@ var articles={
     </p>
         
     <p>
-      For any type of query or grievances, contact us on<br>
-      Ph no:123456789<br>
+      For any type of query or grievances, contact me on<br>
+      Ph no:9727463584<br>
       or<br>
       email:123@abc.com
     </p>`},
