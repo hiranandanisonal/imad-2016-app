@@ -45,7 +45,7 @@ var articles={
       
       <a href="https://twitter.com/hiranandanison1/media"><img src="http://www.iconarchive.com/download/i58879/dakirby309/windows-8-metro/Web-Twitter-alt-2-Metro.ico" width="80px" height="80px" /></a>
       
-      <a href="https://hsonali97.blogspot.in/2016_10_01_archive.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/1024px-Blogger.svg.png height="80px" width="80px" /></a>
+      <a href="https://hsonali97.blogspot.in/2016_10_01_archive.html"><img src="http://www.freeiconspng.com/uploads/blogger-logo-icon-png-10.png height="80px" width="80px" /></a>
       
       <a href="https://plus.google.com/106015111898465232878"><img src="https://freeiconshop.com/files/edd/google-plus-flat.png  height="80px" width="80px"" /></a>
     
