@@ -14,17 +14,17 @@ var articles={
         <a href="/">Home</a> |
         
         
-        <div class="z">
+        
         <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> 
-        </div>
+    
       
-         <div class="z">
-        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me"><button>contact me</button></a> 
-         </div>
          
-         <div class="z">
+        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me"><button>contact me</button></a> 
+    
+         
+       
         <a href="http://hiranandanisonal.imad.hasura-app.io/blog">blog</a>
-        </div>
+      
     </p>
         
     
