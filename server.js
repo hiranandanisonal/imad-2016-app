@@ -24,8 +24,8 @@ var articles={
     
     <p>
     </ hr>
-      Profession: Student</ br> 
-      Course: BE-Information Technology</ br>
+      Profession: Student</br> 
+      Course: BE-Information Technology</br>
       Institute:Sarvajanik college of engineering and technology</br>
       Email ID:hiranandanisonal@gmail.com</br>
       contact no:9727463584
