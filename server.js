@@ -30,6 +30,8 @@ var articles={
       Nationality:Indian</br>
       Email ID:hiranandanisonal@gmail.com</br>
       contact no:9727463584
+      
+      follow me on <input type="image" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50">  <input type="image" src="http://www.iconarchive.com/download/i58879/dakirby309/windows-8-metro/Web-Twitter-alt-2-Metro.ico" width="50" height="50">
     </p> `
 },
     'contact me':{
