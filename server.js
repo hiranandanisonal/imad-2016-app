@@ -33,7 +33,7 @@ var articles={
       contact no:9727463584
     </p> `
 },
-    'Contact me':{
+    'contact me':{
         title:'contact me',
     heading1:'HIRANANDANI SONALI GHANSHYAM',
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
