@@ -40,7 +40,7 @@ var articles={
       
       follow me on 
       </br> 
-      <a href="https://twitter.com/hiranandanison1/media"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50" /></a>  
+      <iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Fdvirus.sh&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>">
       <a href="https://twitter.com/hiranandanison1/media"><img src="http://www.iconarchive.com/download/i58879/dakirby309/windows-8-metro/Web-Twitter-alt-2-Metro.ico" width="50" height="50" /></a>
     </p> `
 },
