@@ -7,10 +7,10 @@ background-repeat:no-repeat;background-size:cover;text-align:justify;color:white
 
 .z{height:50px;
 width:50px;
-background-color:white;
-border-color:blue;
+background-color:blue;
+border-color:black;
 border-style:solid;
-border-radius:1px;
+border-radius:0.5px;
 color:white;
 text-align:center;
 margin:auto
