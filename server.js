@@ -40,11 +40,11 @@ var articles={
     content:`
     <p>
         <a href="/">Home</a> |
-        <a href="http://hiranandanisonal.imad.hasura-app.io/about us" target="_sameframe">about me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">contact me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me!">contact me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/shop">shop</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/blog">blog</a>
        
     </p>
         
@@ -55,23 +55,23 @@ var articles={
       email:123@abc.com
     </p>`},
     
-     'shop':{
-        title:'shop',
-    heading1:'HIRANANDANI HOME REMEDIES',
+     'blog':{
+        title:'blog',
+    heading1:'HIRANANDANI SONALI GHANSHYAM',
     heading2:'<img src="http://www.feminiya.com/wp-content/uploads/2013/06/bad-breath-home-remedies-mint-leaves2.jpg">',
     content:`
     <p>
         <a href="/">Home</a> |
         <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">contact me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me">contact me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/shop">shop</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/blog">blog</a>
        
     </p>
         
     <p>
-   Our products will be released soon!!
+   My blogs will release soon!
     </p>`},
     
 };
