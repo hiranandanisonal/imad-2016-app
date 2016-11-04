@@ -15,18 +15,19 @@ var articles={
         <a href="/">Home</a> |
         <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/say hello!">contact me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me">contact me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/shop">shop</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/blog">blog</a>
        
     </p>
         
     
     <p>
-      Profession: Student 
-      Course: BE-Information Technology
-      Institute:Sarvajanik college of engineering and technology
-      Email ID:hiranandanisonal@gmail.com
+    </ hr>
+      Profession: Student</ br> 
+      Course: BE-Information Technology</ br>
+      Institute:Sarvajanik college of engineering and technology</br>
+      Email ID:hiranandanisonal@gmail.com</br>
       contact no:9727463584
     </p> `
 },
