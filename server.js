@@ -19,7 +19,7 @@ var articles={
     
       
          
-        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me"><button>contact me</button></a> 
+        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me">contact me</a> 
     
          
        
