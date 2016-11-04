@@ -40,8 +40,8 @@ var articles={
       
       follow me on 
       </br> 
-      <a href="https://twitter.com/hiranandanison1/media"><button> src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50"></button></a>  
-      <a href="https://twitter.com/hiranandanison1/media"><button> src="http://www.iconarchive.com/download/i58879/dakirby309/windows-8-metro/Web-Twitter-alt-2-Metro.ico" width="50" height="50"></button></a>
+      <a href="https://twitter.com/hiranandanison1/media"><button> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" width="50" height="50" /></button></a>  
+      <a href="https://twitter.com/hiranandanison1/media"><button> <img src="http://www.iconarchive.com/download/i58879/dakirby309/windows-8-metro/Web-Twitter-alt-2-Metro.ico" width="50" height="50" /></button></a>
     </p> `
 },
     'contact me':{
