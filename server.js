@@ -45,11 +45,11 @@ var articles={
       
    <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fdvirus.sh&width=450&height=100&layout=standard&size=small&show_faces=true&appId" width="450" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       
-      <a href="https://twitter.com/hiranandanison1/media"><img src="Dakirby309-Windows-8-Metro-Web-Twitter-alt-2-Metro.ico" width="80px" height="75px" /></a>
+      <a href="https://twitter.com/hiranandanison1/media"><img src="/ui/Dakirby309-Windows-8-Metro-Web-Twitter-alt-2-Metro.ico" width="80px" height="75px" /></a>
       
-      <a href="https://hsonali97.blogspot.in/2016_10_01_archive.html"><img src="blogger.png" height="75px" width="80px" /></a>
+      <a href="https://hsonali97.blogspot.in/2016_10_01_archive.html"><img src="/ui/blogger.png" height="75px" width="80px" /></a>
       
-      <a href="https://plus.google.com/106015111898465232878"><img src="googleplus.jpg"  height="80px" width="80px" /></a>
+      <a href="https://plus.google.com/106015111898465232878"><img src="/ui/googleplus.jpg"  height="80px" width="80px" /></a>
     </div>
     </p> `
 },
