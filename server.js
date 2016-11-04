@@ -22,11 +22,6 @@ var articles={
     </p>
         
     
-      
-    <p>
-      Welcome to my blog space.I use to write on various topics.You can also follow me:
-    </p>
-    
     <p>
       Profession: Student 
       Course: BE-Information Technology
