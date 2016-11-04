@@ -12,7 +12,7 @@ var articles={
     content:`
     <p>
         <a href="/">Home</a> |
-        <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe"><button>about me</button></a> |
       
         <a href="http://hiranandanisonal.imad.hasura-app.io/contact me">contact me</a> |
       
