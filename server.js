@@ -23,10 +23,12 @@ var articles={
         
     
     <p>
-    </ hr>
+    </hr>
       Profession: Student</br> 
       Course: BE-Information Technology</br>
       Institute:Sarvajanik college of engineering and technology</br>
+      Locality:Surat,Gujarat</br>
+      Nationality:Indian</br>
       Email ID:hiranandanisonal@gmail.com</br>
       contact no:9727463584
     </p> `
