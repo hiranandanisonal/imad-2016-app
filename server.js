@@ -123,12 +123,18 @@ ${title}
 
 
     <div class="x">
+    <center>
     <h1>
     
         ${heading1}
     
     </h1>
     
+    <h2>
+        ${heading2}
+    </h2>
+    </clear>
+    </div>
     <div class="y">
     ${content}
     </div>
