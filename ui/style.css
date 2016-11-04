@@ -5,9 +5,13 @@ background-repeat:no-repeat;background-size:cover;text-align:justify;color:white
 
 .y{background:url("http://www.solidbackgrounds.com/images/1920x1080/1920x1080-mint-cream-solid-color-background.jpg");padding:50px;color:black;margin-left:200px;margin-right:200px;text-align:justify;}
 
-A:link{
-text-decoration:none;
-color:red;}
-
-A:hover{color:yellow;}
-A:visited{color:pink;}
+.z{height:50px;
+width:50px;
+background-color:white;
+border-color:blue;
+border-style:solid;
+border-radius:1px;
+color:white;
+text-align:center;
+margin:auto
+;}
