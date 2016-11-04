@@ -14,3 +14,7 @@ margin:auto;
 border-color:blue;
     
 }
+
+A:hover{color:yellow;}
+A:visited{color:pink;}
+A:link{color:red;}
