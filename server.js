@@ -136,12 +136,12 @@ ${title}
     <h2>
         ${heading2}
     </h2>
-    </clear>
-    </div>
+    </center>
+    
     <div class="y">
     ${content}
     </div>
-    
+    </div>
     </div>
 </body>
 
