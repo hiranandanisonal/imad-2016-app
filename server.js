@@ -100,7 +100,7 @@ var articles={
 function createTemplate(data){
     var title=data.title;
     var heading1=data.heading1;
-  
+    var heading2=data.heading2;
     var content=data.content;
 
 var htmlTemplate=
