@@ -226,7 +226,7 @@ app.get('/ui/blogger.png', function (req, res) {
 app.get('/ui/googleplus.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'googleplus.jpg'));
 });
-app.get('/ui/twitter.png', function (req, res) {
+app.get('/ui/twitter_bird_icon.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'twitter.ico'));
 });
 
