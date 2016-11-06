@@ -104,10 +104,25 @@ var pages={
    My blogs will release soon!
     </p>`},
     
-     
-
-    
-};
+    'India inside':{
+        title:'India inside',
+    heading1:'<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi46Fx8zODM4NygtOjcBCgoKDQ0NDg0NDisZFRk3Ny0rKysrKy0tKystKystNy0tNy0rNzctKzcrLS0rNzctLS0rNy0rLS0tLS0tNy03Lf/AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgADBv/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDz0hjYXUc9iysUBJkAE4QBYgxxjgAthAY2EqJbFMgnGxQBLKxsBDKwYCQvAKiiqFQTRVCioFi8TgJoVQCQpgdGhwxWWhjSKkASEw4AOHGwGLSHFQEyHAGNisbAGNisbAThw42AnGxWNiCcGLwYKnBi8GAjAvBYCLEulibBUYLF4LAQKuxNQRQqjBUspgXIcJxWWwyNIZAbCYVQSHDhgDDhw4Aw4cOCJw4rGwBjYrGwE42KxsFTjYrGwE4MXgxBODF4MBGCxeDBUYmx0sTYCLBYuxNgIsFi7BgrnYMXYMQRhUFFyGQyHFZYxsUAwyGQg2Nhw4AkU2KwQYcbDgDDhw4AxsVjYCcbFY2AnGxWNgIxsUwJwYrBiKnBi8FgIsTYuwWCosTYuwWAiwWLxNgIoqrBgqWLAtWMYrLGNhgNFY0hkBjGkIjYcbFAJDhkOAJDhOAMbDjYAxsVjYCcbFY2AjGxWDEE2BacFTgUwIsTV0UEWCqFFRU1dTQTU1dTQSxwgtQMVDDGMBpFSCKEaGRoQYyNhBsLHAYscEZsJwUY2KxsBONisAJwLTUE2BVFBKVpoqbErqaCaKqiqIqauiioqauhBLFlFljIMkxoYBMEVAYtDAJgigYsYAUzCMcYgzMQAqgipYsCKFpoJoxSaCbAqiiooVRQRRVUKqKFVNQALKOhjYZBkwxjAMMCogxaGAYQYBMBBixVGLMgzMwMzMKGIBIqqASmqoBKaupoqamqooJqaqiqJqaqiipYsDrhLYjLYWINFAwDDGhBoWIMWhBiCDMxBmZgDFgApYE0KSAFNFFTU1VFBNTVVNBNFVU1RNFVU0VgWEdixjI0imMBsOMYDGRsKoxjYQZiQBbDgBiwAswMCwAFgTRVJoJoUmiioq6kE1NVQCU1QUTQqhFDFlHYxoWUZUEIGKghEJaEGYsDHGIM2HCAGKYAxYEsWBNCgCRVBRNTV1IJqauxNFRQupoJqV0UEUKoAYxYV1hLIhMZhFQxmBRZgLMwExmAlmBmxmBsZmBsDMAsAZRgzABYzAmixmBNgsZhRYmswBNZgSWYH//Z">',
+    heading2:'HIRANANDANI SONALI GHANSHYAM',
+    content:`
+    <p>
+        <a href="/">Home</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/about me">about me</a> |
+      
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/contact me">contact me</a> |
+      
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/blog">blog</a>
+       
+    </p>
+        
+    <p>
+   My blogs will release soon!
+    </p>`},
+    };
     
     
     
@@ -207,6 +222,31 @@ app.get('/pages/:articlename',function(req,res){
         }
     });
 });
+
+//tp
+
+app.get('/pages/blog/:articlename',function(req,res){
+    
+    pool.query("SELECT * FROM article WHERE title='" + req.params.articlename + "'",function(err,result)
+    {
+        if(err)
+        {
+            res.status(500).send(err.toString());
+        }else{
+            if(result.rows.length===0){
+                res.status(404).send('Article not found');
+            }else{
+                var articledata=result.rows[0];
+                res.send(createTemplate(articledata));
+            }
+        }
+    });
+});
+
+
+
+
+
 
 
 app.get('/ui/style.css', function (req, res) {
