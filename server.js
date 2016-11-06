@@ -192,7 +192,7 @@ app.get('/counter',function(req,res){
 
 app.get('/pages/:articlename',function(req,res){
     
-    pool.query("SELECT * FROM pages WHERE title='" + req.params.articlename + "'",function(err,result)
+    pool.query("SELECT * FROM article WHERE title='" + req.params.articlename + "'",function(err,result)
     {
         if(err)
         {
