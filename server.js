@@ -223,7 +223,7 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/ui/blogger.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'blogger.png'));
 });
-app.get('/ui/googleplus.png', function (req, res) {
+app.get('/ui/googleplus.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'googleplus.jpg'));
 });
 app.get('/ui/twitter.png', function (req, res) {
