@@ -104,65 +104,7 @@ var articles={
    My blogs will release soon!
     </p>`},
     
-     'article-one':{
-        title:'article-one',
-    heading1:'article-one">',
-    heading2:'date:06-11-2016',
-    content:`
-    <p>
-        <a href="/">Home</a> |
-        <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> |
-      
-        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me">contact me</a> |
-      
-        <a href="http://hiranandanisonal.imad.hasura-app.io/blog">blog</a>
-       
-    </p>
-        
-    <p>
-   What is Delhi? (My India)
-Hey all !
-
-
-I am here to share with you a very interesting information about our India!
-More specifically about Delhi today!
-
-Did you know what the various terminologies like Delhi NCT, Delhi NCR, New Delhi, Old Delhi means.
-
-As per my research it is really very interesting.
-
-NCT stands for national capital territory.(It is the union territory of India)
-NCR stands for national capital region.
-
-Capital of India is NEW DELHI!
-Friends please take a note its very important to mention 'NEW' or else whole meaning changes.
-
-Old Delhi -Red Fort, Lotus temple, Juma Masjid, Humayun Tomb etc i.e historical points.
-
-New Delhi-govt buildings like Parliament house,India gate etc.
-
-Delhi NCT=Old Delhi + New Delhi
-
-Delhi NCR=Delhi NCT +  the neighbouring cities of Faridabad, Gurgaon, Noida, Ghaziabad, Neharpar (Greater Faridabad), Greater Noida, Bahadurgarh, Sonepat, Panipat, Karnal, Rohtak, Bhiwani, Rewari, Baghpat, Meerut, Muzaffarnagar, Alwar, Bharatpur and other nearby towns.
-
-oops image has some problem 
-Rough Diagram
-  
-
-But why NCR ?? must read!!
-
-Delhi NCR has a history..
-After Independence ,Delhi was very very densely populated.It was a serious matter of concern for Indian government. So government added some more cities of Haryana and U.P to Delhi  so that decentralization can take place .This made people to settle in those parts of Haryana and U.P also under the impression of being in Delhi.
-
-This was a very clear cut and straight forward compilation of my research.Hope this was informative.
-Stay with my blog to know our India from depth!
-
-
-For more historical info you can read :Delhi:wikipedia
-
-Lets discuss doubts if any in comment section!
-    </p>`},
-    
+     
 
     
 };
