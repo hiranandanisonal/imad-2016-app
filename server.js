@@ -190,7 +190,7 @@ app.get('/counter',function(req,res){
     res.send(counter.toString());
 });
 
-app.get('pages/:articlename',function(req,res){
+app.get('/pages/:articlename',function(req,res){
     
     pool.query("SELECT * FROM pages WHERE title='" + req.params.articlename + "'",function(err,result)
     {
