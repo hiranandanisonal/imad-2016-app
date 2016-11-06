@@ -271,6 +271,9 @@ app.get('/ui/googleplus.jpg', function (req, res) {
 app.get('/ui/twitter_bird_icon.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'twitter.ico'));
 });
+app.get('/ui/sonalb.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sonalb.png'));
+});
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
