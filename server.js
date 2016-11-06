@@ -26,15 +26,15 @@ var pages={
         
         
         
-        <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/about me">about me</a> |
     
       
          
-        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me">contact me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/contact me">contact me</a> |
     
          
        
-        <a href="http://hiranandanisonal.imad.hasura-app.io/blog">blog</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/blog">blog</a> |
       
     </p>
         
@@ -70,11 +70,11 @@ var pages={
     content:`
     <p>
         <a href="/">Home</a> |
-        <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/about me">about me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me">contact me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/contact me">contact me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/blog">blog</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/blog">blog</a>
        
     </p>
         
@@ -92,11 +92,11 @@ var pages={
     content:`
     <p>
         <a href="/">Home</a> |
-        <a href="http://hiranandanisonal.imad.hasura-app.io/about me" target="_sameframe">about me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/about me">about me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/contact me">contact me</a> |
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/contact me">contact me</a> |
       
-        <a href="http://hiranandanisonal.imad.hasura-app.io/blog">blog</a>
+        <a href="http://hiranandanisonal.imad.hasura-app.io/pages/blog">blog</a>
        
     </p>
         
