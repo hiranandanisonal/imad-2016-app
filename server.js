@@ -82,7 +82,7 @@ var articles={
       For any type of query or grievances, contact me on<br>
       Ph no:9727463584<br>
       or<br>
-      email:123@abc.com
+      email:hiranandanisonali@gmail.com
     </p>`},
     
      'blog':{
@@ -190,7 +190,7 @@ app.get('/counter',function(req,res){
     res.send(counter.toString());
 });
 
-app.get('/articles/:articlename',function(req,res){
+app.get('/:articlename',function(req,res){
     
     pool.query("SELECT * FROM article WHERE title='" + req.params.articlename + "'",function(err,result)
     {
