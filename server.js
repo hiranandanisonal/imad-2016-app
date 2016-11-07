@@ -207,7 +207,7 @@ app.get('/counter',function(req,res){
 
 app.get('/pages/:articlename',function(req,res){
     
-    pool.query("SELECT * FROM article WHERE title='" + req.params.articlename + "'",function(err,result)
+    pool.query("SELECT * FROM article WHERE title=$1",[req.params.articlename],function(err,result)
     {
         if(err)
         {
@@ -229,7 +229,7 @@ app.get('/pages/:articlename',function(req,res){
 
 app.get('/pages/blog/:articlename',function(req,res){
     
-    pool.query("SELECT * FROM blog WHERE title='" + req.params.articlename + "'",function(err,result)
+    pool.query("SELECT * FROM blog WHERE title=$1",[req.params.articlename],function(err,result)
     {
         if(err)
         {
