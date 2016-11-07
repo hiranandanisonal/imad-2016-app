@@ -82,7 +82,7 @@ function hash (input,salt){
 }
 app.get('/hash/:input',function(req,res)
 {
-    var hashedString=hash(res.params.input);
+    var hashedString=hash(res.params.input,'this-is-same-random-string');
     res.send(hashedString);
 })
 
