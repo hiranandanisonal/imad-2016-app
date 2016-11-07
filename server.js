@@ -80,12 +80,19 @@ function hash (input,salt){
     var hashed=crypto.pbkdf2Sync(input,salt,10000,512,'sha512');
     return ['pbkdf2','10000',salt,hashed.toString('hex')].join('$');
 }
+
 app.get('/hash/:input',function(req,res)
 {
     var hashedString=hash(req.params.input,'this-is-same-random-string');
     res.send(hashedString);
 });
 
+app.get('/create-user',function(req,res)
+{
+    var salt=crypto.getRandomBytes(128).toString('hex');
+   var dbString=hash(password,salt); 
+   pool.query(INSERT INTO 'user'(username,password)VALUES($1,$2),[username,dbString])
+});
 var pool=new Pool(config);
 app.get('/test-db',function(req,res)
 {
