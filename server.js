@@ -163,7 +163,7 @@ ${title}
     </h1>
     
     <h2>
-        ${heading2.toDateString()}
+        ${heading2}
     </h2>
     </center>
     
