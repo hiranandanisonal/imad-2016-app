@@ -12,13 +12,19 @@ submit.onclick=function(){
             var names=request.responseText;
             names=JSON.parse(names);
             var list='';
-            for(var i=0;i<names.length;i++){
-            var span=document.getElementById('count');
-            span.innerHTML=counter.toString();
+            for(var i=0;i<names.length;i++)
+            {
+                list += '<li>' + names[i] + '</li>';
+            }
+            
+            var ul=document.getElementById('namelist');
+            ul.innerHTML=counter.list;
         }
     }    
     };
-   request.open('GET','http://hiranandanisonal.imad.hasura-app.io/counter',true);
-   request.send(null);
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+   request.open('POST','http://hiranandanisonal.imad.hasura-app.io/submit-name?name=',true);
+   request.send(JSON.stringify({username:username,password:password}));
 };
 
