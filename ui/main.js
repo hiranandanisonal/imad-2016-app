@@ -1,7 +1,7 @@
 var submit=document.getElementById('submit_btn');
 
 window.onload =function () {
-    document.getElementById("submit-btn").onclick=function(){
+    document.getElementById("submit_btn").onclick=function(){
     var request=new XMLHttpRequest();
     
     request.onreadystatechange=function ()
