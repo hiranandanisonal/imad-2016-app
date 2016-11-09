@@ -9,7 +9,9 @@ var request = new XMLHttpRequest();
     {
         if(request.status===200)
         {
+            
            alert('logged in successfully');
+          
         }else if(request.status===403){
             alert('username/password incorrect');
         }
