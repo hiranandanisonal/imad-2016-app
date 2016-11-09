@@ -9,7 +9,6 @@ submit.onclick=function(){
     {
         if(request.status===200)
         {
-           console.log('user logged in');
            alert('logged in successfully');
         }else if(request.status===403){
             alert('username/password incorrect');
@@ -23,8 +22,8 @@ submit.onclick=function(){
     var password = document.getElementById('password').value;
     console.log(username);
     console.log(password);
-   request.open('POST','http://hiranandanisonal.imad.hasura-app.io/submit-name?name=',true);
-   request.setRequestHeader('content-type','application/json');
+   request.open('POST','http://hiranandanisonal.imad.hasura-app.io/login',true);
+   request.setRequestHeader('Content-type','application/json');
    request.send(JSON.stringify({username:username,password:password}));
 };
 
