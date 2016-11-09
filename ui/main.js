@@ -1,7 +1,7 @@
 var submit=document.getElementById('submit_btn');
 
-window.onload =function () {
-    document.getElementById('submit_btn').onclick=function(){
+
+    submit.onclick=function(){
     var request=new XMLHttpRequest();
     
     request.onreadystatechange=function ()
@@ -18,7 +18,7 @@ window.onload =function () {
             alert('something went wrong on the server');
         }
     }
-    } 
+     
     };
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
