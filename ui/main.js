@@ -1,6 +1,7 @@
 var submit=document.getElementById('submit_btn');
 
-submit.onclick=function () {
+window.onload =function () {
+    document.getElementById("submit-btn").onclick=function(){
     var request=new XMLHttpRequest();
     
     request.onreadystatechange=function ()
@@ -16,6 +17,7 @@ submit.onclick=function () {
         else if(request.status===500){
             alert('something went wrong on the server');
         }
+    }
     }    
     };
     var username = document.getElementById('username').value;
