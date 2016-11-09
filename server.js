@@ -120,7 +120,7 @@ app.post('/login',function(req,res){
   }
   else{
       if(result.rows.length===0){
-          res.send(403).send('username/password is in invalid');
+          res.send(403).send('username/password is invalid');
           
       }
       else
@@ -135,7 +135,7 @@ app.post('/login',function(req,res){
            res.send('credentials are correct!');
            
        }else{
-           res.send(403).send('username/password is in invalid');
+           res.send(403).send('username/password is  invalid');
        }
       
       res.send('user successfully created'+username);
