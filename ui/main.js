@@ -112,16 +112,16 @@ function loadArticles () {
             var articles = document.getElementById('articles');
             if (request.status === 200) {
                 var content = '<ul>';
-                var blogData = JSON.parse(this.responseText);
-                for (var i=0; i< blogData.length; i++) {
+                var articleData = JSON.parse(this.responseText);
+                for (var i=0; i< articleData.length; i++) {
                     content += `<li>
-                    <a href="/pages/blog/${blogData[i].title}">${blogData[i].heading1}</a>
-                    (${blogData[i].heading2.split('T')[0]})</li>`;
+                    <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
+                    (${articleData[i].date.split('T')[0]})</li>`;
                 }
-                content += "</ul>";
+                content += "</ul>"
                 articles.innerHTML = content;
             } else {
-                articles.innerHTML('Oops! Could not load all articles!');
+                articles.innerHTML('Oops! Could not load all articles!')
             }
         }
     };
@@ -136,5 +136,3 @@ loadLogin();
 
 // Now this is something that we could have directly done on the server-side using templating too!
 loadArticles();
-
-
